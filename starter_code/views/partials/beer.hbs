@@ -1,0 +1,20 @@
+<div class="card">
+  <div>{{name}}</div>
+
+  {{!-- // wrap the image into href and creat a singleBeer route "/singleBeer/ {{id}}" + in appjs. put
+  app.get("/singleBeer/:id", (req, res) => const idOfBeer = req.params.id 
+  
+  punkAPI.getBeer(id).then(beer => {
+    res.render("singleBeer", {beer: beer[0]} )
+  })
+  
+   --}}
+
+
+  <img id="beer_img" src={{image_url}}>
+
+  <div>{{description}}</div>
+
+  <div>{{tagline}}</div>
+</div>
+{{log this}}
